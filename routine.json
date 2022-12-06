@@ -1,0 +1,171 @@
+{
+    "Days": {
+        "Sunday": {
+            "1st": {
+                "subject": "Applied Mechanics [L]",
+                "teacher": "AK [Akarsha Khawas]",
+                "time": "10:15-11:55"
+            },
+            "2nd": {
+                "subject": "Physics [L]",
+                "teacher": "BT [Baburam Tiwari]",
+                "time": "11:55-12:45"
+            },
+            "Break": {
+                "subject": "Break",
+                "teacher": "None",
+                "time": "12:45-1:35"
+            },
+            "3rd": {
+                "subject": "Basic Electrical [L]",
+                "teacher": "GB [Ganesh Bhandari]",
+                "time": "1:35-2:25"
+            },
+            "4th": {
+                "subject": "Math-I [L]",
+                "teacher": "GG [Gyanendra Gurung]",
+                "time": "2:25-3:15"
+            },
+            "5th": {
+                "subject": "Math-I [L]",
+                "teacher": "AKB [Arun Kumar Bhandari]",
+                "time": "3:15-4:05"
+            }
+        },
+        "Monday": {
+            "1st": {
+                "subject": "Physics [L]",
+                "teacher": "BT [Baburam Tiwari]",
+                "time": "10:15-11:05"
+            },
+            "2nd": {
+                "subject": "Math-I [L]",
+                "teacher": "AKB [Arun Kumar Bhandari]",
+                "time": "11:05-11:55"
+            },
+            "Break": {
+                "subject": "Break",
+                "teacher": "None",
+                "time": "12:45-1:35"
+            },
+            "3rd": {
+                "subject": "Physics [T]",
+                "teacher": "BT [Baburam Tiwari] GS [Ganesh Shrestha]",
+                "time": "11:55-12:45"
+            },
+            "4th": {
+                "subject": "Computer Programming [L]",
+                "teacher": "GG [Ganesh Gautam]",
+                "time": "1:35-3:15"
+            },
+            "5th": {
+                "subject": "Basic Electrical [L]",
+                "teacher": "GB [Ganesh Bhandari]",
+                "time": "4:05-4:55"
+            }
+        },
+        "Tuesday": {
+            "1st": {
+                "subject": "Basic Electrical [L]",
+                "teacher": "GB [Ganesh Bhandari]",
+                "time": "10:15-11:05"
+            },
+            "2nd": {
+                "subject": "Physics [L]",
+                "teacher": "GS [Ganesh Shrestha]",
+                "time": "11:05-11:55"
+            },
+            "Break": {
+                "subject": "Break",
+                "teacher": "None",
+                "time": "12:45-1:35"
+            },
+            "3rd": {
+                "subject": "Math-I [L]",
+                "teacher": "AKB [Arun Kumar Bhandari]",
+                "time": "11:55-12:45"
+            },
+            "4th": {
+                "subject": "Computer Programming [L]",
+                "teacher": "GG [Ganesh Gautam]",
+                "time": "1:35-2:25"
+            },
+            "5th": {
+                "subject": "Basic Electrical (Alternate Week) [P]",
+                "teacher": "GB [Ganesh Bhandari]",
+                "time": "2:25-4:55"
+            }
+        },
+        "Wednesday": {
+            "1st": {
+                "subject": "Math-I [L]",
+                "teacher": "PA [Purnima Adhikari]",
+                "time": "10:15-11:05"
+            },
+            "2nd": {
+                "subject": "Applied Mechanics [T]",
+                "teacher": "GSB [Gopal Singh Bhandari]",
+                "time": "11:05-11:55"
+            },
+            "Break": {
+                "subject": "Break",
+                "teacher": "None",
+                "time": "12:45-1:35"
+            },
+            "3rd": {
+                "subject": "Physics [L]",
+                "teacher": "GS [Ganesh Shrestha]",
+                "time": "11:55-12:45"
+            },
+            "4th": {
+                "subject": "Drawing-I (Group B) [L+P]",
+                "teacher": "RC,SN [Ramesh Chaudhary] [Sanjaya Neupane]",
+                "time": "1:35-4:55"
+            }
+        },
+        "Thursday": {
+            "1st": {
+                "subject": "Computer Programming I (Group A) [P]",
+                "teacher": "GG [Ganesh Gautam]",
+                "time": "10:15-12:45"
+            },
+            "Break": {
+                "subject": "Break",
+                "teacher": "None",
+                "time": "12:45-1:35"
+            },
+            "2nd": {
+                "subject": "Applied Mechanics [L]",
+                "teacher": "GSB [Gopal Singh Bhandari]",
+                "time": "1:35-3:15"
+            },
+            "3rd": {
+                "subject": "Physics(Group A) [P]",
+                "teacher": "BP,CG,GS",
+                "time": "3:15-4:55"
+            }
+        },
+        "Friday": {
+            "1st": {
+                "subject": "Drawing-I [L+P] (Group A) | Computer Programming [P] (Group B)",
+                "teacher": "BP+AP (Group A)            | GG [Ganesh Gautam] (Group B)",
+                "time": "10:15-1:35 (Group A)          | 10:15-12:45 (Group B)"
+            },
+            "Break": {
+                "subject": "Break",
+                "teacher": "None",
+                "time": "12:45-1:35"
+            },
+            "2nd": {
+                "subject": "Basic Electrical [L]",
+                "teacher": "GB [Ganesh Bhandari]",
+                "time": "1:35-2:25"
+            },
+            "3rd": {
+                "subject": "Physics Practical (Group B) [P]",
+                "teacher": "BKB,CG,KP",
+                "time": "3:15-4:55"
+            }
+        }
+    }
+}
