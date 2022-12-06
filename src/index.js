@@ -2,6 +2,7 @@ const { Client, Collection, GatewayIntentBits } = require("discord.js");
 const fs = require("fs");
 require('dotenv').config();
 
+
 const client = new Client({ intents: GatewayIntentBits.Guilds });
 client.commands = new Collection();
 client.commandArray = [];
