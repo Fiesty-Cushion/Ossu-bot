@@ -2,9 +2,6 @@ const fs = require("fs");
 const { REST, Routes } = require("discord.js");
 require('dotenv').config();
 
-const clientID = "979998824225472532";
-const guildID = "979998350088744990";
-
 module.exports = (client) => {
   client.handleCommands = async () => {
     const commandFolders = fs.readdirSync("./src/commands");
@@ -33,7 +30,7 @@ module.exports = (client) => {
 
       // The put method is used to fully refresh all commands in the guild with the current set
       const data = await rest.put(
-        Routes.applicationGuildCommands(clientID , guildID),
+        Routes.applicationGuildCommands(process.env.CLIENT_ID , process.env.GUILD_ID),
         { body: client.commandArray }
       );
 
