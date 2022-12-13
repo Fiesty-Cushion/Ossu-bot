@@ -1,7 +1,4 @@
-const {
-  SlashCommandBuilder,
-  EmbedBuilder
-} = require("discord.js");
+const { SlashCommandBuilder, EmbedBuilder, Guild } = require("discord.js");
 
 const { Days } = require("../../../routine.json");
 
@@ -35,7 +32,7 @@ module.exports = {
   async execute(interaction, client) {
     var day = interaction.options.getString("day");
 
-    //in case user doesn't specify day from options, assign present day 
+    //in case user doesn't specify day from options, assign present day
     if (!day) {
       let dayIndex = new Date().getDay();
       const hours = new Date().getHours();
@@ -55,7 +52,7 @@ module.exports = {
     let periods = Object.keys(Days[day]);
     let routine = [];
 
-    //creates an array of objects containing routine info 
+    //creates an array of objects containing routine info
     periods.forEach(function (period) {
       let PeriodInfo = {
         name: `${period} Period - ${Days[day][period].subject}`,
@@ -68,7 +65,11 @@ module.exports = {
     const embedRoutine = new EmbedBuilder()
       .setTitle(`**${day}'s Routine**`)
       .setColor(0x1abc9c)
-      .addFields(routine);
+      .addFields(routine)
+      .setTimestamp()
+      .setFooter(
+        {text: client.user.tag }
+      );
 
     await interaction.reply({
       embeds: [embedRoutine],
