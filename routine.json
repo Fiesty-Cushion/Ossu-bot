@@ -18,7 +18,7 @@
             },
             "3rd": {
                 "subject": "Basic Electronics [L]",
-                "teacher": "NA [Nawaraj Adhikari]",
+                "teacher": "JKM [Jitendra Kumar Manandhar]",
                 "time": "1:00-1:45"
             },
             "4th": {
@@ -31,12 +31,17 @@
             "1st": {
                 "subject": "Drawing-II (Group A) [L+P]",
                 "teacher": "NA [Neeraj Adhikari], AB",
-                "time": "10:15-1:00"
+                "time": "10:15-12:30"
             },
             "2nd": {
+                "subject": "Thermodynamics [L]",
+                "teacher": "AKJ [Ajay Kumar Jha]",
+                "time": "12:30-1:45"
+            },
+            "3rd": {
                 "subject": "Drawing-II (Group B) [L+P]",
                 "teacher": "NA [Neeraj Adhikari], AB",
-                "time": "1:00-4:00"
+                "time": "1:45-4:00"
             }
         },
         "Tuesday": {
@@ -56,8 +61,8 @@
                 "time": "12:30-1:00"
             },
             "3rd": {
-                "subject": "Maths-II [L]",
-                "teacher": "PA [Purnima Adhikari]",
+                "subject": "Chemistry [L]",
+                "teacher": "PA",
                 "time": "1:00-1:45"
             },
             "4th": {
@@ -68,26 +73,16 @@
         },
         "Wednesday": {
             "1st": {
-                "subject": "Thermodynamics [L]",
-                "teacher": "AKJ [Ajay Kumar Jha]",
-                "time": "10:15-11:45"
-            },
-            "2nd": {
                 "subject": "Basic Electronics [L]",
                 "teacher": "JKM [Jitendra Kumar Manandhar]",
-                "time": "11:45-12:30"
+                "time": "11:45-1:00"
             },
-            "Break": {
-                "subject": "Break",
-                "teacher": "None",
-                "time": "12:30-1:00"
-            },
-            "3rd": {
-                "subject": "Workshop Technology [L]",
-                "teacher": "TRS [Tek Raj Subedi]",
+            "2nd": {
+                "subject": "Chemistry [L]",
+                "teacher": "SJ [Sahira Joshi]",
                 "time": "1:00-1:45"
             },
-            "4th": {
+            "3rd": {
                 "subject": "Workshop Technology (Group B) [P]",
                 "teacher": "BMS, HCM, SGP",
                 "time": "1:45-4:00"
@@ -113,23 +108,16 @@
                 "subject": "Break",
                 "teacher": "None",
                 "time": "12:30-1:00"
-            },
+            },            
             "4th": {
+                "subject": "Chemistry [T]",
+                "teacher": "AS",
+                "time":"1:00-1:45"
+            },
+            "5th": {
                 "subject": "Chemistry [P] (Both Groups)",
                 "teacher": "RMS, RR, BT || AS, SJ, HRP",
-                "time":"1:00-4:00"
-            }
-        },
-        "Friday": {
-            "1st": {
-                "subject": "Chemistry [L]",
-                "teacher": "SJ [Suresh Jha]",
-                "time": "11:00-11:45"
-            },
-            "2nd": {
-                "subject": "Basic Electronics [L]",
-                "teacher": "JKM [Jitendra Kumar Manandhar]",
-                "time": "11:45-12:30"
+                "time":"1:45-4:00"
             }
         }
     }
